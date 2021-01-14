@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="CSS/Pagina_login.css">
+    <link rel="icon" href="imagens páginas/logo site.png">
+</head>
+
+<body>
+    <header>
+        <div>
+           <a href="pagina_principal.html"> <img src="imagens páginas/logo site.png" alt="sea tech"></a>
+        </div>
+        
+
+
+
+    </header>
+    <!-- <img src="imagens páginas/Imagem login site.jpeg" alt="canoas" width="1350" height="768"> -->
+    <div id="caixa">
+            <br><br>
+        <div id="textologin">
+            <h1>LOGIN</h1>
+            <H2>BEM-VINDO</H2>
+        
+
+        <form method="POST" action="login.php">
+            <label for="nomeusuario" class="input"></label>
+            <input type="text" id="nomeusuario" placeholder="Nome do usuário " name="nomeusuario" >
+            <br><br>
+            <label for="senha" class="input"></label>
+            <input type="password" id="senha" placeholder="Senha" name="senha" >
+            <br><br>
+            <p>Não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+            <br>
+            <input type="submit" value="ENTRAR" class="botao_entrar">
+           <a href="pagina_principal.html"> <input type="button" value="VOLTAR" class="botao_entrar"></a>
+            
+
+        </form>
+        </div>
+    </div>
+
+    
+<script src="js/login.js"></script>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+
+</body>
+
+</html>

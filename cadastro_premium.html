@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea Tech</title>
+    <!--Nosso Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="icon" href="imagens páginas/logo site.png">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!--Nosso CSS-->
+    <link rel="stylesheet" href="css/cadastro_premium.css">
+
+
+</head>
+<body background="img/Sem Título-3.png">
+    <main class="container">   
+        <div id="blococinza"> <!--BLOCO CENTRAL-->
+        
+
+            <aside id="blococompra"> <!--Bloco-RESUMO-COMPRA-->
+               <br> <h5 id="txtresumocompra">RESUMO DA SUA COMPRA</h5> <hr>
+               <h6 id="assinaturapremium">ASSINATURA PREMIUM</h6> 
+               <p id="acesso6">Acesso por 6 meses</p>
+               <br><hr>
+               <h5 id="total">Total: </h5> 
+               
+
+            </aside>
+
+            <article id="msganuncio"> <!--Mensagem de anúncio parte esquerda-->
+                <h5 id="sejavip">SEJA PREMIUM E TENHA ACESSO AS MELHORES INFORMAÇÕES </h5>
+            </article>
+            
+            
+            <img src="img/Peixe.png" alt="Peixe da tela de premium" id="peixe">
+            
+            <h5 id="formapagar">  Forma de pagamento</h5>
+            <input type="radio" id="cartaocredito" name="tipocompra" checked>
+            <img src="img/Cartao.png" alt="cartaocreditoimg" id="cartaoimg">
+            <label for="cartaocredito">Cartão de crédito (até 12x sem juros)</label>
+            <input type="radio" id="boleto" name="tipocompra">
+            <img src="img/Boleto.png" alt="boletocompraimg" id="boletoimg">
+            <label for="boleto">Boleto bancario (à vista)</label>
+            <br><br>
+           <form>
+                    <div class="col-5">
+                        <input type="text" class="form-control" id="numcart" placeholder="Número do cartão">
+
+                    </div>
+
+
+           </form>
+                <br><br><br><br><br>
+
+            <form id="form2">
+                
+                <div class="form-row">
+                  <div class="col-5">
+                    <input type="text" class="form-control" id="nomeim" placeholder="Nome impresso no cartão">
+                  </div>
+                  <div class="col-3">
+                    <input type="date" class="form-control" id="vali" placeholder="Validade">
+                  </div>
+                  <div class="col-2">
+                    <input type="password" class="form-control" id="cods" placeholder="Cód. de seg."> 
+
+                  </div>
+                </div>
+              </form>
+              <hr>
+
+
+              <input  onclick="window.location.href = 'file:///C:/Users/Sou%20Proa/Desktop/Sea%20Tech/Fim.html'" type="submit" id="confirmar" class="btn btn-prymary" value="Confirmar compra">
+              
+
+
+        </div>
+        
+        
+      
+
+
+
+
+    </main>    
+
+
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+    <!--Nosso JS-->
+    <link rel="stylesheet" href="js/cadastro_premium.js">
+
+</body>
+</html>
